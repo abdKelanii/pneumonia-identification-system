@@ -371,11 +371,6 @@ Contributions are welcome! Here's how you can help:
 - [ ] Containerize application with Docker
 - [ ] Deploy to cloud platforms (AWS, GCP, Azure)
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -385,10 +380,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Kermany, Daniel; Zhang, Kang; Goldbaum, Michael** (2018), "Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification", Mendeley Data, V2, doi: 10.17632/rscbjbr9sj.2
 
-### Institutions
-
-- **Guangzhou Women and Children's Medical Center, Guangzhou** - for providing the dataset
-- **Kaggle** - for hosting the dataset
 
 ### Technologies
 
@@ -396,11 +387,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Streamlit team for the web application framework
 - Google Colab for providing free GPU resources
 
----
-
-## ⚠️ Disclaimer
-
-**IMPORTANT**: This system is a research prototype and should **NOT** be used as a substitute for professional medical diagnosis. Always consult qualified healthcare professionals for medical advice, diagnosis, and treatment. The predictions made by this system are for educational and research purposes only.
 
 ---
 
@@ -408,9 +394,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or collaboration opportunities:
 
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
-- **Email**: your.email@example.com
-- **Issues**: [GitHub Issues](https://github.com/yourusername/chest-xray-pneumonia-detection/issues)
+- **GitHub**: [Your GitHub Profile](https://github.com/abdkelanii)
+- **Email**: abdalsalam.kelani@gmail.com
 
 ---
 
@@ -418,6 +403,5 @@ For questions, suggestions, or collaboration opportunities:
 
 ### ⭐ If you find this project useful, please consider giving it a star!
 
-**Made with ❤️ for healthcare and AI research**
 
 </div>
