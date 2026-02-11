@@ -74,11 +74,107 @@ The system provides an intuitive web interface where users can:
 3. Get instant predictions with confidence scores
 4. See detailed analysis including raw model outputs
 
-### Sample Predictions
+### Sample Images Gallery
 
-The `sample images/` directory contains test images for both classes:
-- **NORMAL**: Healthy chest X-rays
-- **PNEUMONIA**: X-rays showing pneumonia (bacterial and viral)
+The project includes sample chest X-ray images for testing. Below are examples from both classes:
+
+#### 🟢 Normal Chest X-Rays
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="sample images/NORMAL/IM-0019-0001.jpeg" width="200px" alt="Normal 1"/>
+      <br />
+      <sub><b>IM-0019-0001.jpeg</b></sub>
+    </td>
+    <td align="center">
+      <img src="sample images/NORMAL/IM-0025-0001.jpeg" width="200px" alt="Normal 2"/>
+      <br />
+      <sub><b>IM-0025-0001.jpeg</b></sub>
+    </td>
+    <td align="center">
+      <img src="sample images/NORMAL/IM-0069-0001.jpeg" width="200px" alt="Normal 3"/>
+      <br />
+      <sub><b>IM-0069-0001.jpeg</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="sample images/NORMAL/IM-0071-0001.jpeg" width="200px" alt="Normal 4"/>
+      <br />
+      <sub><b>IM-0071-0001.jpeg</b></sub>
+    </td>
+    <td align="center">
+      <img src="sample images/NORMAL/IM-0103-0001.jpeg" width="200px" alt="Normal 5"/>
+      <br />
+      <sub><b>IM-0103-0001.jpeg</b></sub>
+    </td>
+    <td align="center">
+      <img src="sample images/NORMAL/NORMAL2-IM-0012-0001.jpeg" width="200px" alt="Normal 6"/>
+      <br />
+      <sub><b>NORMAL2-IM-0012-0001.jpeg</b></sub>
+    </td>
+  </tr>
+</table>
+
+#### 🔴 Pneumonia Chest X-Rays
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="sample images/NEUMONIA/person14_virus_44.jpeg" width="200px" alt="Pneumonia 1"/>
+      <br />
+      <sub><b>person14_virus_44.jpeg</b></sub>
+      <br />
+      <sub><i>Viral Pneumonia</i></sub>
+    </td>
+    <td align="center">
+      <img src="sample images/NEUMONIA/person20_virus_51.jpeg" width="200px" alt="Pneumonia 2"/>
+      <br />
+      <sub><b>person20_virus_51.jpeg</b></sub>
+      <br />
+      <sub><i>Viral Pneumonia</i></sub>
+    </td>
+    <td align="center">
+      <img src="sample images/NEUMONIA/person21_virus_53.jpeg" width="200px" alt="Pneumonia 3"/>
+      <br />
+      <sub><b>person21_virus_53.jpeg</b></sub>
+      <br />
+      <sub><i>Viral Pneumonia</i></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="sample images/NEUMONIA/person37_virus_82.jpeg" width="200px" alt="Pneumonia 4"/>
+      <br />
+      <sub><b>person37_virus_82.jpeg</b></sub>
+      <br />
+      <sub><i>Viral Pneumonia</i></sub>
+    </td>
+    <td align="center">
+      <img src="sample images/NEUMONIA/person42_virus_89.jpeg" width="200px" alt="Pneumonia 5"/>
+      <br />
+      <sub><b>person42_virus_89.jpeg</b></sub>
+      <br />
+      <sub><i>Viral Pneumonia</i></sub>
+    </td>
+    <td align="center">
+      <img src="sample images/NEUMONIA/person78_bacteria_381.jpeg" width="200px" alt="Pneumonia 6"/>
+      <br />
+      <sub><b>person78_bacteria_381.jpeg</b></sub>
+      <br />
+      <sub><i>Bacterial Pneumonia</i></sub>
+    </td>
+  </tr>
+</table>
+
+### Testing with Sample Images
+
+You can use any of the above sample images to test the system. The images are located in:
+- Normal X-rays: `sample images/NORMAL/`
+- Pneumonia X-rays: `sample images/NEUMONIA/`
+
+Simply upload any of these images through the web interface to see the model's predictions!
 
 ---
 
